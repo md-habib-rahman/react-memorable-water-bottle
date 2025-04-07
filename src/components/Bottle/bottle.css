@@ -1,0 +1,28 @@
+.card {
+  border: 2px solid teal;
+  padding: 20px;
+  border-radius: 20px;
+  /* margin: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover{
+	background-color: cadetblue;
+}
+
+.sub-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+} */
+.card img {
+  width: 200px;
+}
