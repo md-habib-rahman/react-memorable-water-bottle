@@ -1,0 +1,10 @@
+.cart-container {
+  display: flex;
+  gap: 20px; 
+  /* width: 100%; */
+  
+}
+
+.cart-container img {
+  width: 100px;
+}
